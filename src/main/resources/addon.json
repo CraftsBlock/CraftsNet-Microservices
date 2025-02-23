@@ -1,0 +1,15 @@
+{
+  "name": "Microservices",
+  "main": "de.craftsblock.cnet.modules.microservices.Microservices",
+  "description": "",
+  "version": "1.0.0",
+  "website": "https://craftsblock.de",
+  "authors": [
+    "Philipp Maywald",
+    "CraftsBlock"
+  ],
+  "softDepends": [
+    "Gateway"
+  ],
+  "dependencies": []
+}

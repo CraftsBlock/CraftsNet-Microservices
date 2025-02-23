@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'de.craftsblock.craftsnet.modules'
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.craftsblock.de/releases" }
+}
+
+dependencies {
+    implementation 'de.craftsblock:craftscore:3.8.2-SNAPSHOT'
+    implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
+}
